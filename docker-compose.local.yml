@@ -1,0 +1,5 @@
+services:
+  web:
+    container_name: hermes-opencode-dosen
+    ports: !override
+      - "8081:80"
